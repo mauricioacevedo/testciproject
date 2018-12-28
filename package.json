@@ -1,0 +1,19 @@
+{
+  "name": "testciproject",
+  "version": "1.0.0",
+  "description": "Little project to implement the test framework jest and integrate the whole thing with github and at the end use Circle CI",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "test",
+    "testing",
+    "circleci"
+  ],
+  "author": "Mauricio Acevedo",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
