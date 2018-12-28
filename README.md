@@ -10,3 +10,4 @@ Prototype code to show a basic implementacion of testing using jest and test int
 6. After that you should upload your project to Github.
 7. Start your session in CircleCI with your actual Github account, select the actual project and follow the steps.
 8. Build the project and wait until you see the status: SUCCESS(Check and fix things if the build Failed).
+9. After getting Circle CI tests working (status: SUCCESS), go the Github, select actual project and settings, select Branches and add the rule (Require status checks to pass before merging) to the branch you are using(usually is master) and select circleci. You could even include administrator in this rule.
