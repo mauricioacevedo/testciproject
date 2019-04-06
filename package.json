@@ -4,7 +4,7 @@
   "description": "Little project to implement the test framework jest and integrate the whole thing with github and at the end use Circle CI",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "mocha app.chai.test.js"
   },
   "keywords": [
     "test",
@@ -15,5 +15,9 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
   }
 }
